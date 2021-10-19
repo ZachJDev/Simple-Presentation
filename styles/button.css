@@ -1,0 +1,83 @@
+/* Buttons*/
+.btn {
+    box-sizing: content-box;
+    font-size: 1.3rem;
+    color: var(--color-text);
+    line-height: .2rem;
+    text-decoration: none;
+
+    background-color: var(--color-btn);
+    border-radius: 10px;
+    margin: 3rem ;
+    padding: 2rem;
+
+    box-shadow: #DEAF02 3px 3px;
+    transform: translateY(-3px);
+}
+
+.btn:hover {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.btn::after,
+.btn::before{
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.btn-up-arrow::after {
+    content: " \f062"
+}
+
+.btn-down-arrow::after {
+    content: " \f063";
+}
+
+.btn-right-arrow::after {
+    content: " \f061";
+}
+
+.btn-left-arrow::before {
+    content: "\f060  ";
+}
+
+.btn-left-diag span {
+ padding-left: .2rem;
+}
+
+.btn-left-diag:before {
+    display: inline-block;
+    transform: rotate(-45deg);
+    content: "\f060  ";
+
+}
+
+@media (max-width: 880px) {
+
+    .btn-up-arrow::after,
+    .btn-down-arrow::after,
+    .btn-right-arrow::after,
+    .btn-left-arrow::before,
+    .btn-left-diag:before {
+        content: '';
+    }
+    .btn {
+        font-size: 1.2rem;
+        text-wrap: normal;
+        text-align: center;
+        line-height: 1.3rem;
+        padding: 1.3rem 1rem;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .btn {
+        font-size: .9rem;
+
+        margin: 1rem;
+        padding: 1.3rem;
+
+    }
+}
