@@ -1,0 +1,115 @@
+.slide-content.oscillator-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.web-audio-body {
+    display: flex;
+    min-height: 450px;
+    overflow: hidden;
+    max-width: 100vw;
+}
+
+.oscillator-body {
+    box-sizing: border-box;
+    max-height: 490px;
+    max-width: 200px;
+    min-width: 200px;
+    height: 96%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    background-color: var(--color-sec) ;
+    padding: 1rem;
+    border-radius: 15px;
+    /*box-shadow: inset #060606 2px 0px;*/
+}
+
+input[type=range] {
+    height: 20%;
+    -webkit-appearance: slider-vertical;
+}
+
+.osc-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: flex-end;
+}
+
+.btn.add-osc-btn,
+.btn.remove-osc-btn {
+    background-color: #5a79c9;
+    padding: .5rem 1rem;
+    margin: 1rem .5rem 0 0;
+    cursor: pointer;
+    box-shadow: #112131 2px 2px;
+}
+
+.btn.add-osc-btn:hover,
+.btn.remove-osc-btn:hover {
+    box-shadow: none;
+}
+
+.btn.add-osc-btn *,
+.btn.remove-osc-btn * {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    width: 10px;
+    text-align: center;
+}
+
+.hertz-num {
+    padding-left: 1rem;
+    font-family: "montserrat", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    background-color: rgba(1,1,1,0);
+    border: none;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+.hertz-num:after {
+    content: 'hz';
+}
+
+.select-osc-label {
+    padding-top: 10px;
+    font-size: .85rem;
+    font-family: "montserrat", sans-serif;
+}
+
+.select-osc {
+    width: 100%;
+    height: 2rem;
+    font-size: 1.3rem;
+    font-family: "montserrat", sans-serif;
+}
+
+.button {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    display: inline-block;
+    margin-top: 1.9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button.playing {
+    background-image: url(../img/pause.svg);
+
+
+}
+
+.button.paused {
+    background-image: url(../img/Play.svg) ;
+}
+

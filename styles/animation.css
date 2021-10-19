@@ -1,0 +1,15 @@
+.bounce-up {
+    transform: translate(0,100px);
+}
+
+.bounce-down {
+    transform: translate(0,-100px);
+}
+
+.bounce-left {
+    transform: translate(100px,0);
+}
+
+.bounce-right {
+    transform: translate(-100px, 0);
+}

@@ -1,0 +1,394 @@
+<!doctype html>
+<!--suppress HtmlUnknownAnchorTarget -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Level Up Presentation</title>
+<!-- Font Awesome CDN here for Arrows (button.css)-->
+    <link href="styles/base.css" rel="stylesheet" type="text/css">
+    <link href="styles/layout.css" rel="stylesheet" type="text/css">
+    <link href="styles/animation.css" rel="stylesheet" type="text/css">
+    <link href="styles/slides.css" rel="stylesheet" type="text/css">
+    <link href="styles/button.css" rel="stylesheet" type="text/css">
+    <link href="styles/grid-demo.css" rel="stylesheet" type="text/css">
+    <link href="styles/web-audio.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="slide-deck">
+<!--Row #1-->
+    <div class="row">
+
+<!--Slide 1-1-->
+        <div class="slide">
+            <div class="slide-header">
+        <div class="slide-title">
+            <h1 class="slide-head">Level 1 to 2 Presentation</h1>
+            <p class="slide-subtitle">Zach Johnson, Oct 13, 2021</p>
+        </div>
+            </div>
+
+            <div class="slide-content">
+                <ol>
+                   <li>
+                       <h3>What I've been doing on my project:</h3>
+                       <ol>
+                           <li>Data migration</li>
+                           <li>Creating reports with APEX and SQL</li>
+                           <li>Debugging myriad issues</li>
+
+                       </ol>
+                   </li>
+                    <li>
+                        <h3>What I've been doing at home:</h3>
+                        <ol>
+                            <li>Linux Command line</li>
+                            <li>A few updates for a personal project</li>
+                            <li>Frontend experiments</li>
+                            <li>Docker & Nginx</li>
+                            <li>Learning C#</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-down-arrow" href="#slide-2-1">Working on my project</a>
+            </div>
+
+        </div>
+    </div>
+<!--Row #2-->
+    <div class="row">
+        <!--Slide 2-1-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Working on My Project</h2>
+                </div>
+
+            </div> <div class="slide-content">
+
+            <ul>
+            <li class="li-primary" > Developer for ~6 APEX Applications</li>
+            <li class="li-primary">Work directly with business owners and users to debug issues, migrate data, and implement new features</li>
+            <li class="li-primary">Application data management with Oracle PL/SQL</li>
+            <li class="li-primary">Application development with the APEX backend, CSS, and Javascript</li>
+            </ul>
+
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-up-arrow" href="#slide-1-1">Go back</a>
+                <a class="btn btn-down-arrow" href="#slide-3-1">Personal Projects</a>
+                <a class="btn btn-right-arrow" href="#slide-2-2">Case #1</a>
+            </div>
+    </div>
+        <!-- Slide 2-2-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Case 1</h2>
+                </div>
+
+            </div>
+            <div class="slide-content text-slide">
+                <ul>
+                    <li>
+                        <h3>Tools:</h3>
+                        <ul>
+                    <li>SQL, PL/SQL</li>
+                    </ul>
+
+                    </li>
+                    <li>
+                        <h3>Issue:</h3>
+                        <ul>
+                    <li>Large amounts of data had to be migrated between the application's stage environment and
+                        production environment.
+                    </li>
+                    <li>Previously migrated data had errors and needed to be corrected.</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Resolution:</h3>
+                        <ul>
+                            <li>Determined why previously migrated data was incorrect</li>
+                            <li>Wrote a few PL/SQL scripts to generate INSERT and UPDATE statements</li>
+                            <li>Finally, wrote a PL/SQL script to 'kick-start' specific drafts in production</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-2-1">Project Intro</a>
+                <a class="btn btn-right-arrow" href="#slide-2-3">Case #2</a>
+            </div>
+        </div>
+<!--        Slide 2-3-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Case 2</h2>
+                </div>
+
+            </div>
+            <div class="slide-content text-slide">
+                <ul>
+                    <li>
+                        <h3>Tools:</h3>
+                        <ul>
+                            <li>SQL, APEX</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Issue:</h3>
+                        <ul>
+                            <li>Application business owner realized that there were a number of application users not assigned to a team</li>
+                            <li>She requested a report that would detail users who were not assigned to a team leader</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Resolution:</h3>
+                        <ul>
+                            <li>I Created a new view in the database using SQL to join the information necessary to create the report</li>
+                            <li>Using APEX, I added an interactive report, a small page to quickly assign team leaders, and a number of default report settings for different use cases. </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-2-2">Case #1</a>
+                <a class="btn btn-right-arrow" href="#slide-2-4">Case #3</a>
+            </div>
+        </div>
+<!--        slide2-4-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Case 3</h2>
+                </div>
+
+            </div>
+            <div class="slide-content text-slide">
+                <ul>
+                    <li>
+                        <h3>Tools:</h3>
+                        <ul><li>
+                            APEX
+                        </li></ul>
+                    </li>
+                    <li>
+                        <h3>Issue:</h3>
+                        <ul><li>
+                            Users reported a bug where, if they chose to 'cancel' a sub-page, they would lose all the work completed on the main page
+                        </li></ul>
+                    </li>
+
+                    <li>
+                        <h3>Resolution:</h3>
+                        <ul>
+                            <li>Upon inspection, discovered that the feedback 'page' was actually just a number of page elements being hidden and show.</li>
+                            <li>However, the page was refreshed when the 'cancel' button was used.</li>
+                            <li>From there, I was able to simply reverse the steps taken to show the page to instead hide it.</li>
+
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-2-3">Case #2</a>
+                <a class="btn btn-right-arrow" href="#slide-2-5">Case #4</a>
+            </div>
+        </div>
+<!--        slide 2-5-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Case 4</h2>
+                </div>
+
+            </div>
+            <div class="slide-content">
+                <ul>
+                    <li>
+                        <h3>Tools:</h3>
+                        <ul><li>
+                            DevTools, CSS, APEX
+                        </li></ul>
+                    </li>
+                    <li>
+                        <h3>Issue:</h3>
+                        <ul>
+                            <li>An application user reported than when attempting to print a report, the report would sometimes be pushed to a second page, leaving  large gap on the first page below the page header. </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Resolution:</h3>
+                        <ul>
+                            <li>Inspecting the CSS template in APEX, I found that there was a directive to avoid page breaking in the middle of a <code>&lsaquo;td&rsaquo;</code> element. </li>
+                            <li>Using the browser Developer Tools, I realized that APEX uses tables for it's layout, and the entire report was embedded in a single <code>&lsaquo;td&rsaquo;</code> element. </li>
+                            <li>I rectified this by assigning a class to the <code>&lsaquo;td&rsaquo;</code>s of the report, then rewriting the template to avoid breaking on that class. </li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-2-4">Case #3</a>
+                <a class="btn btn-left-diag" href="#slide-3-1"><span>Personal Projects</span></a>
+            </div>
+        </div>
+    </div>
+<!--Row #3-->
+    <div class="row">
+<!--        Slide 3-1-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Personal Projects</h2>
+                </div>
+
+            </div>
+            <div class="slide-content">
+                <ul>
+                    <li class="li-primary"><h3>What I've been working on lately:</h3>
+                        <ul>
+                            <li>Lots of Linux command line</li>
+                            <li>Starting C#</li>
+                            <li>A little bit of maintenance on a <a href="https://github.com/ZachJDev/Probility">personal project</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-primary"><h3>Demos:</h3>
+                    <ul>
+                        <li><a href="#slide-1-1">This Presentation Framework!</a></li>
+                        <li><a href="#slide-3-2">CSS Grid</a></li>
+                        <li><a href="#slide-3-3">Web Audio</a></li>
+                        <li><a href="#slide-3-4">Docker & Nginx</a></li>
+                    </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-up-arrow" href="#slide-2-1">Working on my Project</a>
+                <a class="btn btn-down-arrow" href="#slide-4-1">Conclusion</a>
+                <a class="btn btn-right-arrow" href="#slide-3-2">CSS Grid Demo</a>
+            </div>
+        </div>
+<!--        3-2 Grid Demo-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2>CSS Grid Demo</h2>
+                </div>
+            </div>
+            <div class="slide-content">
+                <div class="fun-grid">
+                    <div class="circle"><p>lorem</p></div>
+                    <div class="circle"><p>Lorem ipsum.</p></div>
+                    <div class="circle"><p>Lorem ipsum dolor.</p></div>
+                    <div class="circle"><p>Lorem ipsum dolor sit amet.</p></div>
+                    <div class="inner-grid">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="inner-grid">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-3-1">Personal Projects</a>
+                <a class="btn btn-right-arrow" href="#slide-3-3">Web Audio Demo</a>
+            </div>
+        </div>
+<!--        3-3 Web Audio-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Web Audio API Demo</h2>
+                </div>
+
+            </div>
+            <div class="slide-content oscillator-content">
+                <div id="osc-position" class="web-audio-body">
+
+                </div>
+                <div class="osc-controls">
+                    <div class="btn add-osc-btn"><p>+</p></div>
+                    <div class="btn remove-osc-btn"><p>-</p></div>
+                </div>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-3-2">Grid Demo</a>
+                <a class="btn btn-right-arrow" href="#slide-3-4">Docker & Nginx Demo</a>
+                </div>
+</div>
+<!--        slide 3-4 Docker/Nginx-->
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head">Docker/Nginx Demo</h2>
+                </div>
+
+            </div>
+            <div class="slide-content">
+                <ol>
+                    <li class="li-primary"><h3>Objective:</h3> <ol>
+                    <li>Demonstrate Nginx's load-balancing
+                        capabilities.</li>
+                    </ol>
+                    </li>
+                    <li class="li-primary"><h3>Methodology:</h3> <ol>
+                        <li>Create a Node.js/Express server that receives a request and waits for 3 seconds before responding to it.</li>
+                        <li>Spin up 3 instances of the server using Docker to manage their execution.</li>
+                        <li>launch an Nginx load-balancing server and route requests to the different Node.js servers sequentially.</li>
+                    </ol></li>
+                    <li class="li-primary"><h3>Expected Outcome:</h3> <ol>
+                        <li>If we submit 3 simultaneous <code>curl</code> requests to a single Node server, we should expect each to be processed individually, receiving each after 3 seconds, with a total time of 9 seconds for all requests</li>
+                        <li>If we submit 3 simultaneous requests to the load balancing server, we should expect a single batch of 3 responses after 3 seconds.</li>
+                    </ol></li>
+                    <li class="li-primary"></li>
+                </ol>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-left-arrow" href="#slide-3-3">Web Audio</a>
+                <a class="btn btn-left-diag" href="#slide-4-1">Closing</a>
+            </div>
+        </div>
+    </div>
+<!--Row #4-->
+    <div class="row">
+        <div class="slide">
+            <div class="slide-header">
+                <div class="slide-title">
+                    <h2 class="slide-head"> Thank you and Q/A</h2>
+                </div>
+            </div>
+            <div class="slide-content centered">
+                <h2 class="closing">Thanks for Listening!</h2>
+                <h2 class="closing"> Questions?</h2>
+            </div>
+            <div class="slide-footer">
+                <a class="btn btn-up-arrow" href="#slide-3-1"><span>Personal Projects</span></a>
+            </div>
+        </div>
+</div>
+</div>
+<script src="JS/firstload.js"></script>
+<script src="JS/script.js"></script>
+<script src="JS/webAudioInit.js"></script>
+<script src="JS/web-audio.js"></script>
+<script src="JS/gridDemo.js"></script>
+</body>
+</html>
