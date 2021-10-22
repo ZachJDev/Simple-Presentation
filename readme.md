@@ -27,11 +27,17 @@ to get you started and point you in the right direction if you're looking to cha
       ```
 - To get the arrows to work correctly with the buttons, you will need to include a link to your own Font Awesome kit in the `<head>`.
 - The basic color scheme and typography styles can be adjusted in the base.css file, which also includes some other, possibly useful variables.
+- Slide `<div>`s should *not* have hardcoded `id`s; they do not need to be included in the HTML at all -- they are automatically
+assigned when the page is opened. This functionality cannot easily be overridden, as most of the navigation handling parses the slide id value
+  to determine where it should move.
 
 *Please let me know if you run into any issues when using this framework, and I'll be happy to add more tips.*
 
 ## Demos
 
 You can find a presentation I made (with some company-specific information removed) in 
-the [EX_My_Presentation Branch](https://github.com/ZachJDev/Simple-Presentation/tree/EX_My_Presentation). 
-I hope to add a few screenshots to give you a taste of some of the features soon!
+the [EX_My_Presentation Branch](https://github.com/ZachJDev/Simple-Presentation/tree/EX_My_Presentation).
+
+[Check out the live presentation here.](https://zachjdev.github.io/Simple-Presentation/)
+
+I hope to add a few screenshots to give you a taste of some features soon!
