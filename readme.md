@@ -15,8 +15,9 @@ and should always take you to the correct view for the given slide.
 
 ## Assembly *is* Required
 
-I built this framework with a specific presentation in mind, so it may not fit your needs exactly out of the box. Below are some tips 
-to get you started and point you in the right direction if you're looking to change some things.
+I built this framework with a specific presentation in mind, so it may not fit your needs exactly out of the box. You should expect to finagle
+the styles to get them to match your needs -- hopefully I've made that easy enough! Below are some tips 
+to get you started and point you in the right direction if you're looking to change some things. 
 
 - Slides must be added manually using the template included in the index.html file (the blank slide in the second row).
     - To create a new row:
@@ -41,3 +42,7 @@ the [EX_My_Presentation Branch](https://github.com/ZachJDev/Simple-Presentation/
 [Check out the live presentation here.](https://zachjdev.github.io/Simple-Presentation/)
 
 I hope to add a few screenshots to give you a taste of some features soon!
+
+## Issues
+
+Please feel free to submit any issues you've encountered or any pull requests for fixes you've implemented!
