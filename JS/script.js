@@ -32,7 +32,7 @@ class ScrollHandler {
 const getSlideNumbers = (slideId) => slideId.split('-').slice(1)
 
 // Retrieves the current scroll position from localStorage or resets it
-const currentScroll = JSON.parse(localStorage.getItem('scrollPos')) || {xOffset: 0, yOffset: 0};
+const currentScroll = JSON.parse(sessionStorage.getItem('scrollPos')) || {xOffset: 0, yOffset: 0};
 
 const scrollHandler = new ScrollHandler(currentScroll.xOffset, currentScroll.yOffset);
 
@@ -61,7 +61,7 @@ const scrollByKey = {
 }
 
 const setScrollStorage = () => {
-    localStorage.setItem('scrollPos', JSON.stringify(scrollHandler.getScrollOffset()))
+    sessionStorage.setItem('scrollPos', JSON.stringify(scrollHandler.getScrollOffset()))
 }
 
 
