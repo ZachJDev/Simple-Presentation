@@ -3,10 +3,8 @@
 :root {
     --color-prim:
         #486c9d
-        /*#EF9F08*/
     ;
     --color-sec: rgba(206, 206, 210, 0.84)
-        /*#68956D*/
     ;
 
     --color-tert:
@@ -37,9 +35,6 @@ body {
      background-color: black;
      transition: transform .3s ease-in-out;
      transform: translate(0,0);
-
-    /*position: relative;*/
-    /*top: calc(-1 * var(--slide-list-height));*/
 
  }
 
