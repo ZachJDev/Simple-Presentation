@@ -39,7 +39,7 @@ assigned when the page is opened. This functionality cannot easily be overridden
 You can find a presentation I made (with some company-specific information removed) in 
 the [EX_My_Presentation Branch](https://github.com/ZachJDev/Simple-Presentation/tree/EX_My_Presentation).
 
-[Check out the live presentation here.](https://zachjdev.github.io/Simple-Presentation/)
+[Check out the live presentation here.](https://zachjdev.github.io/Simple-Presentation/) (Warning, the web audio API demo can be loud!)
 
 I hope to add a few screenshots to give you a taste of some features soon!
 
