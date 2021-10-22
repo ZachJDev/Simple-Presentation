@@ -80,13 +80,13 @@
 
 
 
-@media (max-width: 1600px) {
+@media (max-width: var(--breakpoint-1)) {
     .slide .slide-content {
         padding: 0 4rem ;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: var(--breakpoint-2)) {
 
     .slide {
         grid-template-rows: 10% 80% 10%;
@@ -105,7 +105,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: var(--breakpoint-4)) {
 
     .slide .slide-header {
         padding-top: 1rem

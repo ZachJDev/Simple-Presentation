@@ -17,6 +17,12 @@
     --color-text: #050505;
 
     --slide-list-height: 20px;
+
+    --breakpoint-1: 1600px;
+    --breakpoint-2: 1200px;
+    --breakpoint-3: 880px;
+    --breakpoint-4: 700px;
+    --breakpoint-5: 600px;
 }
 
 .icon::before {
@@ -58,7 +64,7 @@ ol, ul {
  }
 
 
-@media (max-width: 600px) {
+@media (max-width: var(--breakpoint-5)) {
 
 
     P,li,a,label {
